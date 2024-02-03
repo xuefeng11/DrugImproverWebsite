@@ -1,14 +1,12 @@
-# Nerfies
+# DrugImprover
 
-This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io).
+This is the repository that contains source code for the [DrugImprover website](TODO-update-URL).
 
-If you find Nerfies useful for your work please cite:
-```
-@article{park2021nerfies
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+If you find DrugImprover useful for your work please cite:
+```bibtex
+@inproceedings{liu2023drugimprover,
+  title={DRUGIMPROVER: Utilizing Reinforcement Learning for Multi-Objective Alignment in Drug Optimization},
+  author={Liu, Xuefeng and Jiang, Songhao and Vasan, Archit and Brace, Alexander and Gokdemir, Ozan and Brettin, Thomas and Xia, Fangfang}
 }
 ```
 
