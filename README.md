@@ -4,9 +4,13 @@ This is the repository that contains source code for the [DrugImprover website](
 
 If you find DrugImprover useful for your work please cite:
 ```bibtex
-@inproceedings{liu2023drugimprover,
-  title={DRUGIMPROVER: Utilizing Reinforcement Learning for Multi-Objective Alignment in Drug Optimization},
-  author={Liu, Xuefeng and Jiang, Songhao and Vasan, Archit and Brace, Alexander and Gokdemir, Ozan and Brettin, Thomas and Xia, Fangfang}
+@inproceedings{
+liu2023drugimprover,
+title={DrugImprover: Utilizing Reinforcement Learning for Multi-Objective Alignment in Drug Optimization},
+author={Xuefeng Liu and Songhao Jiang and Archit Vasan and Alexander Brace and Ozan Gokdemir and Thomas Brettin and Fangfang Xia and Ian Foster and Rick Stevens},
+booktitle={NeurIPS 2023 Workshop on New Frontiers of AI for Drug Discovery and Development},
+year={2023},
+url={https://openreview.net/forum?id=8RPbtOC6Sl}
 }
 ```
 
