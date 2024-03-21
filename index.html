@@ -176,6 +176,17 @@
                   </span>
                   <span>Data</span>
                   </a>
+              </span>
+              <!-- Slides Link. -->
+              <span class="link-block">
+                <a href="https://drive.google.com/file/d/1sxIEkJ2LZ-zmdRPwI3JvVbtmDvZn6IiT/view?usp=sharing"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Slides</span>
+                  </a>
+
             </div>
 
           </div>
@@ -183,14 +194,6 @@
       </div>
     </div>
   </div>
-</section>
-
-<section class="hero teaser">
-    <div style="margin: 0; display: flex; justify-content: center; align-items: center; height: 100vh;">
-    <div style="text-align: center; margin-top: -20px;" class="center-container">
-        <img src="./static/images/overview.png" alt="Overview Image" style="max-width: 60%; height: auto;">
-    </div>
-</div>
 </section>
 
 <section class="section">
@@ -201,36 +204,116 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-        Reinforcement learning from human feedback (RLHF) is a method for enhancing
-        the finetuning of large language models (LLMs), leading to notable performance
-        improvements that can also align better with human values. Building upon the
-        inspiration drawn from RLHF, this research delves into the realm of drug optimization.
-        We employ reinforcement learning to finetune a drug optimization model, enhancing the 
-        original drug across multiple target objectives, while retaining the beneficial 
-        chemical properties of the original drug. Our proposal comprises three primary 
-        components: (1) DRUGIMPROVER: A framework tailored for improving robustness 
-        and efficiency in drug optimization. (2) A novel Advantage alignment Policy 
-        Optimization (APO) with multi-critic guided exploration algorithm for 
-        finetuning the objective-oriented properties. (3) A dataset of 1 million
-        compounds, each with OEDOCK docking scores on 5 human proteins associated
-        with cancer cells and 24 proteins from SARS-CoV-2 virus. We conduct a 
-        comprehensive evaluation of APO and demonstrate its effectiveness in improving the 
-        original drug across multiple properties. Our code and dataset are made 
-        public at: <a href="https://github.com/xuefeng-cs/DrugImprover" target="_blank">https://github.com/xuefeng-cs/DrugImprover</a>.
+            Reinforcement learning from human feedback (RLHF) is a method for enhancing
+            the finetuning of large language models (LLMs), leading to notable performance
+            improvements that can also align better with human values. Building upon the
+            inspiration drawn from RLHF, this research delves into the realm of drug optimization.
+            We employ reinforcement learning to finetune a drug optimization model, enhancing the 
+            original drug across multiple target objectives, while retaining the beneficial 
+            chemical properties of the original drug. Our proposal comprises three primary 
+            components: (1) DRUGIMPROVER: A framework tailored for improving robustness 
+            and efficiency in drug optimization. (2) A novel Advantage alignment Policy 
+            Optimization (APO) with multi-critic guided exploration algorithm for 
+            finetuning the objective-oriented properties. (3) A dataset of 1 million
+            compounds, each with OEDOCK docking scores on 5 human proteins associated
+            with cancer cells and 24 proteins from SARS-CoV-2 virus. We conduct a 
+            comprehensive evaluation of APO and demonstrate its effectiveness in improving the 
+            original drug across multiple properties. Our code and dataset are made 
+            public at: <a href="https://github.com/xuefeng-cs/DrugImprover" target="_blank">https://github.com/xuefeng-cs/DrugImprover</a>.
           </p>
         </div>
       </div>
     </div>
     <!--/ Abstract. -->
+  </div>
+</section>
+
+<section class="hero teaser" style="display: flex; justify-content: center;">
+  <div style="margin: 20px; display: flex; justify-content: center; align-items: center; flex-direction: column; height: auto;">
+      <h2 class="title is-3" style="margin-bottom: 20px;">Poster</h2>
+      <div style="text-align: center;" class="center-container">
+          <img src="./static/images/poster.jpeg" alt="Overview Image" style="width: 90%; max-width: 1600px; height: auto;">
+      </div>
+  </div>
+</section>
 
 
-<section class="section" id="BibTeX">
+<section class="hero teaser" style="display: flex; justify-content: center;">
+  <div style="margin: 20px; display: flex; justify-content: center; align-items: center; flex-direction: column; height: auto;">
+      <h2 class="title is-3" style="margin-bottom: 50px;">Workflow</h2>
+      <div style="text-align: center;" class="center-container">
+          <img src="./static/images/overview.png" alt="Overview Image" style="width: 90%; max-width: 1600px; height: auto;">
+      </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container">
+    <h2 class="title is-3 has-text-centered">Data</h2>
+    <div class="columns is-centered">
+      <div class="column is-half">
+        <div class="table-container">
+          <table class="table is-striped is-hoverable is-fullwidth">
+            <thead>
+              <tr>
+                <th>Link</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- COVID target rows with clickable links -->
+  <tr><td class="link-cell"><a href="https://github.com/xuefeng11/DrugImproverWebsite/blob/main/data/COVIDRec/3CLPro_7BQY_A_1_F/ml.3CLPro_7BQY_A_1_F.Orderable_zinc_db_enaHLL.sorted.4col.dd.parquet.xform-smiles.csv.reg" target="_blank">3CLPro_7BQY_A_1_F</a></td><td>COVID target</td></tr>
+  <tr><td class="link-cell"><a href="https://github.com/xuefeng11/DrugImproverWebsite/blob/main/data/COVIDRec/NSP15_6VWW_AB_1_F/ml.NSP15_6VWW_AB_1_F.Orderable_zinc_db_enaHLL.sorted.4col.dd.parquet.xform-smiles.csv.reg" target="_blank">NSP15_6VWW_AB_1_F</a></td><td>COVID target</td></tr>
+  <tr><td class="link-cell"><a href="https://github.com/xuefeng11/DrugImproverWebsite/blob/main/data/COVIDRec/Nsp13.helicase_m3_pocket2/ml.Nsp13.helicase_m3_pocket2.Orderable_zinc_db_enaHLL.sorted.4col.dd.parquet.xform-smiles.csv.reg" target="_blank">Nsp13.helicase_m3_pocket2</a></td><td>COVID target</td></tr>
+  <tr><td class="link-cell"><a href="https://github.com/xuefeng11/DrugImproverWebsite/blob/main/data/COVIDRec/NPRBD_6VYO_AB_1_F/ml.NPRBD_6VYO_AB_1_F.Orderable_zinc_db_enaHLL.sorted.4col.dd.parquet.xform-smiles.csv.reg" target="_blank">NPRBD_6VYO_AB_1_F</a></td><td>COVID target</td></tr>
+  <tr><td class="link-cell"><a href="https://github.com/xuefeng11/DrugImproverWebsite/blob/main/data/COVIDRec/NSP15_6VWW_A_1_F/ml.NSP15_6VWW_A_1_F.Orderable_zinc_db_enaHLL.sorted.4col.dd.parquet.xform-smiles.csv.reg" target="_blank">NSP15_6VWW_A_1_F</a></td><td>COVID target</td></tr>
+  <tr><td class="link-cell"><a href="https://github.com/xuefeng11/DrugImproverWebsite/blob/main/data/COVIDRec/PLPro_6W9C_A_2_F/ml.PLPro_6W9C_A_2_F.Orderable_zinc_db_enaHLL.sorted.4col.dd.parquet.xform-smiles.csv.reg" target="_blank">PLPro_6W9C_A_2_F</a></td><td>COVID target</td></tr>
+  <tr><td class="link-cell"><a href="https://github.com/xuefeng11/DrugImproverWebsite/blob/main/data/COVIDRec/NPRBD_6VYO_A_1_F/ml.NPRBD_6VYO_A_1_F.Orderable_zinc_db_enaHLL.sorted.4col.dd.parquet.xform-smiles.csv.reg" target="_blank">NPRBD_6VYO_A_1_F</a></td><td>COVID target</td></tr>
+  <tr><td class="link-cell"><a href="https://github.com/xuefeng11/DrugImproverWebsite/blob/main/data/COVIDRec/NSP15_6VWW_A_2_F/ml.NSP15_6VWW_A_2_F.Orderable_zinc_db_enaHLL.sorted.4col.dd.parquet.xform-smiles.csv.reg" target="_blank">NSP15_6VWW_A_2_F</a></td><td>COVID target</td></tr>
+  <tr><td class="link-cell"><a href="https://github.com/xuefeng11/DrugImproverWebsite/blob/main/data/COVIDRec/RDRP_6M71_A_2_F/ml.RDRP_6M71_A_2_F.Orderable_zinc_db_enaHLL.sorted.4col.dd.parquet.xform-smiles.csv.reg" target="_blank">RDRP_6M71_A_2_F</a></td><td>COVID target</td></tr>
+  <tr><td class="link-cell"><a href="https://github.com/xuefeng11/DrugImproverWebsite/blob/main/data/COVIDRec/NPRBD_6VYO_BC_1_F/ml.NPRBD_6VYO_BC_1_F.Orderable_zinc_db_enaHLL.sorted.4col.dd.parquet.xform-smiles.csv.reg" target="_blank">NPRBD_6VYO_BC_1_F</a></td><td>COVID target</td></tr>
+  <tr><td class="link-cell"><a href="https://github.com/xuefeng11/DrugImproverWebsite/blob/main/data/COVIDRec/NSP15_6W01_AB_1_F/ml.NSP15_6VWW_AB_1_F.Orderable_zinc_db_enaHLL.sorted.4col.dd.parquet.xform-smiles.csv.reg" target="_blank">NSP15_6W01_AB_1_F</a></td><td>COVID target</td></tr>
+  <tr><td class="link-cell"><a href="https://github.com/xuefeng11/DrugImproverWebsite/blob/main/data/COVIDRec/RDRP_6M71_A_3_F/ml.RDRP_6M71_A_3_F.Orderable_zinc_db_enaHLL.sorted.4col.dd.parquet.xform-smiles.csv.reg" target="_blank">RDRP_6M71_A_3_F</a></td><td>COVID target</td></tr>
+  <tr><td class="link-cell"><a href="https://github.com/xuefeng11/DrugImproverWebsite/blob/main/data/COVIDRec/NPRBD_6VYO_CD_1_F/ml.NPRBD_6VYO_CD_1_F.Orderable_zinc_db_enaHLL.sorted.4col.dd.parquet.xform-smiles.csv.reg" target="_blank">NPRBD_6VYO_CD_1_F</a></td><td>COVID target</td></tr>
+  <tr><td class="link-cell"><a href="https://github.com/xuefeng11/DrugImproverWebsite/blob/main/data/COVIDRec/NSP15_6W01_A_1_F/ml.NSP15_6W01_A_1_F.Orderable_zinc_db_enaHLL.sorted.4col.dd.parquet.xform-smiles.csv.reg" target="_blank">NSP15_6W01_A_1_F</a></td><td>COVID target</td></tr>
+  <tr><td class="link-cell"><a href="https://github.com/xuefeng11/DrugImproverWebsite/blob/main/data/COVIDRec/RDRP_6M71_A_4_F/ml.RDRP_6M71_A_4_F.Orderable_zinc_db_enaHLL.sorted.4col.dd.parquet.xform-smiles.csv.reg" target="_blank">RDRP_6M71_A_4_F</a></td><td>COVID target</td></tr>
+  <tr><td class="link-cell"><a href="https://github.com/xuefeng11/DrugImproverWebsite/blob/main/data/COVIDRec/NPRBD_6VYO_DA_1_F/ml.NPRBD_6VYO_DA_1_F.Orderable_zinc_db_enaHLL.sorted.4col.dd.parquet.xform-smiles.csv.reg" target="_blank">NPRBD_6VYO_DA_1_F</a></td><td>COVID target</td></tr>
+  <tr><td class="link-cell"><a href="https://github.com/xuefeng11/DrugImproverWebsite/blob/main/data/COVIDRec/NSP15_6W01_A_2_F/ml.NSP15_6W01_A_2_F.Orderable_zinc_db_enaHLL.sorted.4col.dd.parquet.xform-smiles.csv.reg" target="_blank">NSP15_6W01_A_2_F</a></td><td>COVID target</td></tr>
+  <tr><td class="link-cell"><a href="https://github.com/xuefeng11/DrugImproverWebsite/blob/main/data/COVIDRec/RDRP_7BV1_A_1_F/ml.RDRP_7BV1_A_1_F.Orderable_zinc_db_enaHLL.sorted.4col.dd.parquet.xform-smiles.csv.reg" target="_blank">RDRP_7BV1_A_1_F</a></td><td>COVID target</td></tr>
+  <tr><td class="link-cell"><a href="https://github.com/xuefeng11/DrugImproverWebsite/blob/main/data/COVIDRec/NSP10-16_6W61_AB_1_F/ml.NSP10-16_6W61_AB_1_F.Orderable_zinc_db_enaHLL.sorted.4col.dd.parquet.xform-smiles.csv.reg" target="_blank">NSP10-16_6W61_AB_1_F</a></td><td>COVID target</td></tr>
+  <tr><td class="link-cell"><a href="https://github.com/xuefeng11/DrugImproverWebsite/blob/main/data/COVIDRec/NSP15_6W01_A_3_H/ml.NSP15_6W01_A_3_H.Orderable_zinc_db_enaHLL.sorted.4col.dd.parquet.xform-smiles.csv.reg" target="_blank">NSP15_6W01_A_3_H</a></td><td>COVID target</td></tr>
+  <tr><td class="link-cell"><a href="https://github.com/xuefeng11/DrugImproverWebsite/blob/main/data/COVIDRec/NSP10-16_6W61_AB_2_F/ml.NSP10-16_6W61_AB_2_F.Orderable_zinc_db_enaHLL.sorted.4col.dd.parquet.xform-smiles.csv.reg" target="_blank">NSP10-16_6W61_AB_2_F</a></td><td>COVID target</td></tr>
+  <tr><td class="link-cell"><a href="https://github.com/xuefeng11/DrugImproverWebsite/blob/main/data/COVIDRec/NSP16_6W61_A_1_H/ml.NSP16_6W61_A_1_H.Orderable_zinc_db_enaHLL.sorted.4col.dd.parquet.xform-smiles.csv.reg" target="_blank">NSP16_6W61_A_1_H</a></td><td>COVID target</td></tr>
+  <tr><td class="link-cell"><a href="https://github.com/xuefeng11/DrugImproverWebsite/blob/main/data/COVIDRec/NSP10_6W61_B_1_F/ml.NSP10_6W61_B_1_F.Orderable_zinc_db_enaHLL.sorted.4col.dd.parquet.xform-smiles.csv.reg" target="_blank">NSP10_6W61_B_1_F</a></td><td>COVID target</td></tr>
+  <tr><td class="link-cell"><a href="https://github.com/xuefeng11/DrugImproverWebsite/blob/main/data/COVIDRec/Nsp13.helicase_m1_pocket2/ml.Nsp13.helicase_m3_pocket2.Orderable_zinc_db_enaHLL.sorted.4col.dd.parquet.xform-smiles.csv.reg" target="_blank">Nsp13.helicase_m1_pocket2</a></td><td>COVID target</td></tr>
+  <tr><td class="link-cell"><a href="https://github.com/xuefeng11/DrugImproverWebsite/tree/main/data/CancerRep/6T2W/SMILES_6t2w.csv" target="_blank">6T2W</a></td><td>Cancer target</td></tr>
+  <tr><td class="link-cell"><a href="https://github.com/xuefeng11/DrugImproverWebsite/tree/main/data/CancerRep/NSUN2/SMILES_nsun2.csv" target="_blank">NSUN2</a></td><td>Cancer target</td></tr>
+  <tr><td class="link-cell"><a href="https://github.com/xuefeng11/DrugImproverWebsite/tree/main/data/CancerRep/RTCB/SMILES_RTCB.csv" target="_blank">RTCB</a></td><td>Cancer target</td></tr>
+  <tr><td class="link-cell"><a href="https://github.com/xuefeng11/DrugImproverWebsite/tree/main/data/CancerRep/WHSC/SMILES_whsc.csv" target="_blank">WHSC</a></td><td>Cancer target</td></tr>
+  <tr><td class="link-cell"><a href="https://github.com/xuefeng11/DrugImproverWebsite/tree/main/data/CancerRep/WRN/SMILES_wrn.csv" target="_blank">WRN</a></td><td>Cancer target</td></tr>
+
+              </tr>
+              <!-- Add more rows as needed -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
-    <h2 class="title">BibTeX</h2>
-    <pre><code>@inproceedings{liu2023drugimprover,
-  title={DRUGIMPROVER: Utilizing Reinforcement Learning for Multi-Objective Alignment in Drug Optimization},
-  author={Liu, Xuefeng and Jiang, Songhao and Vasan, Archit and Brace, Alexander and Gokdemir, Ozan and Brettin, Thomas and Xia, Fangfang}
-}</code></pre>
+    <h2 class="title">Citation</h2>
+    <pre><code>@inproceedings{
+      liu2023drugimprover,
+      title={DrugImprover: Utilizing Reinforcement Learning for Multi-Objective Alignment in Drug Optimization},
+      author={Xuefeng Liu and Songhao Jiang and Archit Vasan and Alexander Brace and Ozan Gokdemir and Thomas Brettin and Fangfang Xia and Ian Foster and Rick Stevens},
+      booktitle={NeurIPS 2023 Workshop on New Frontiers of AI for Drug Discovery and Development},
+      year={2023},
+      url={https://openreview.net/forum?id=8RPbtOC6Sl}
+      }</code></pre>
   </div>
 </section>
 
